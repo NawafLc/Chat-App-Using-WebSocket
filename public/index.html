@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    </link>
+    <title>ChatApp</title>
+</head>
+
+<body>
+    <div id="mario-chat">
+        <h2>Socket Chat</h2>
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id='feedback'></div>
+        </div>
+        <input id="handle" type="text" placeholder="Handle" />
+        <input id="message" type="text" placeholder="Message" />
+        <button id="send">Send</button>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.0/socket.io.min.js"></script>
+    <script type="text/javascript" src="./client.js"></script>
+</body>
+
+</html>
